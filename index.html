@@ -293,10 +293,9 @@
   /* ───────── Why we gather ───────── */
   .why .heading { margin-bottom: clamp(40px, 5vw, 70px); }
   .why__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gutter); }
-  .why__item { border-top: 1px solid var(--ink); padding-top: 16px; display: flex; flex-direction: column; gap: 40px; }
+  .why__item { border-top: 1px solid var(--rule); padding-top: 16px; display: flex; flex-direction: column; gap: 22px; }
   .why__item .label { color: var(--muted); }
-  .why__item p { font-size: clamp(20px, 1.9vw, 27px); line-height: 1.22; font-weight: 500; letter-spacing: -0.02em; text-wrap: pretty; }
-  .why__item:first-child p { color: var(--orange); }
+  .why__item p { font-size: clamp(16px, 1.25vw, 18px); line-height: 1.6; font-weight: 400; max-width: 38ch; text-wrap: pretty; }
 
   /* ───────── Into (dark band) ───────── */
   .on-dark { background: var(--ink); color: var(--cream); }
