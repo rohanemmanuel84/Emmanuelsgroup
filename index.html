@@ -351,9 +351,6 @@
   }
   .come__title { grid-column: 1 / span 6; font-size: clamp(48px, 8vw, 124px); line-height: .9; font-weight: 500; letter-spacing: -0.05em; }
   .come__body { grid-column: 8 / span 5; align-self: end; }
-  .come__note { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--gutter); row-gap: 10px; border-top: 1px solid var(--rule); padding-top: 14px; }
-  .come__note .label { grid-column: 1 / span 6; }
-  .come__note p { grid-column: 8 / span 5; font-size: 14px; line-height: 1.5; color: var(--muted); }
 
   /* ───────── Locations ───────── */
   .loc__head { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--gutter); row-gap: 24px; margin-bottom: clamp(40px, 5vw, 70px); }
@@ -423,7 +420,7 @@
   @media (max-width: 960px) {
     .split > .a, .split > .b, .who .photo, .who__text, .faq .a, .faq__list,
     .do__head .heading, .do__head p, .loc__head .heading, .loc__head p,
-    .practise .body, .practise .big, .come__title, .come__body, .come__note .label, .come__note p,
+    .practise .body, .practise .big, .come__title, .come__body,
     .seat .photo, .seat__text, .year__num, .year__img,
     .footer__logo, .footer__verse, .footer__nav { grid-column: 1 / -1; }
     .who .photo { aspect-ratio: 3 / 2; }
@@ -858,10 +855,6 @@
       <div class="come__body body">
         <p>You don't need to have all the answers. You don't need to have the perfect Christian story.</p>
         <p>Jesus welcomed people where they were—and we want to do the same.</p>
-      </div>
-      <div class="come__note">
-        <span class="label">A note on your local church</span>
-        <p>Emmanuel doesn't belong to any one church or denomination. We encourage everyone to stay faithful to their own local church. We are one body, called to serve one triune God, each in the place He has planted us.</p>
       </div>
     </div>
   </div>
